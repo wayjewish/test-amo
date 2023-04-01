@@ -177,6 +177,8 @@ a, button, input, optgroup, select, textarea {
 }
 
 .section_main {
+  position: relative;
+
   display: flex;
   flex-direction: column;
   gap: 62px;
@@ -365,8 +367,8 @@ a, button, input, optgroup, select, textarea {
 }
 
 .background_desktop {
-  top: -154px;
-  left: -102px;
+  top: -363px;
+  left: -252px;
 
   width: 1030px;
   height: 729px;
@@ -490,7 +492,6 @@ a, button, input, optgroup, select, textarea {
 
 
   .main {
-    position: relative;
     padding: 40px 0 60px;
 
     background-image: url("./assets/bg-mobile.png");
